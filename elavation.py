@@ -8,6 +8,9 @@ from tkinter import messagebox
 from urllib.request import urlopen
 from urllib.parse import urlencode
 
+'''
+ADDED FOR MAGIT COMPABILITY
+'''
 
 class ElevationApp:
     def __init__(self, master):
@@ -38,7 +41,7 @@ class ElevationApp:
             
             elevation = response['results'][0]['elevation']
             
-            messagebox.showinfo("Elevation Result", f"The elevation at {latitude}, {longitude} is {elevation} meters.")
+            messagebox.showinfo("Elevation Result:", f"The elevation at {latitude}, {longitude} is {elevation} meters.")
             
         except ValueError:
             messagebox.showerror("Error", "Please enter valid numerical values for latitude and longitude.")
