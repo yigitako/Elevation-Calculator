@@ -1,6 +1,6 @@
 # FIND ELEVATION DATA OF A GIVEN LOCATION WITH LATIDUE AND LONGITUDE DATA
-# AUTHOR :: YIGIT AKOYMAK
-# USE AS YOU WISH I DON'T CARE AT ALL.
+# AUTHOR  :: YIGIT AKOYMAK
+# LICENSE :: USE AS YOU WISH I DON'T CARE AT ALL.
 import tkinter as tk
 
 from ast import literal_eval
@@ -8,7 +8,6 @@ from tkinter import messagebox
 from urllib.request import urlopen
 from urllib.parse import urlencode
 
-__version__ = "0.1"
 
 class ElevationApp:
     def __init__(self, master):
