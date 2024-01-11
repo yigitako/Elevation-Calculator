@@ -1,9 +1,9 @@
 # TO START THE PROGRAM
 # AUTHOR :: YIGIT AKOYMAK
-from elavation import ElevationApp
+from elvation_gui import ElevationApp
 import tkinter as tk
 
-__version__ = "0.1"
+__version__ = "0.11"
 
 if __name__  == "__main__":
     root = tk.Tk()
